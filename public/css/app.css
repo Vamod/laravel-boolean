@@ -10917,8 +10917,12 @@ nav #navbarNav li a .noactive {
   flex-wrap: wrap;
 }
 
-.card-group .card {
-  flex-basis: calc((100vw - 60px ) / 3);
+.card-group .carta {
+  width: calc(100% / 3);
   padding: 30px;
+}
+
+.card-group .carta img {
+  border-radius: 50%;
 }
 
