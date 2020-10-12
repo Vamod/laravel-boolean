@@ -1,0 +1,8 @@
+//studenti.blade.php
+.card-group{
+    flex-wrap: wrap;
+    .card{
+        flex-basis: calc((100vw - 60px ) / 3);
+        padding: 30px;
+    }
+}

@@ -1,0 +1,14 @@
+nav{
+    #logo{
+        height: 32px;
+    }
+    #navbarNav{
+        li{
+            a{
+                .noactive{
+                    color: $greenColor;
+                }
+            }
+        }
+    }
+}
