@@ -12,7 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-// dopo la chiocciola è il nome della funzione
+// dopo la chiocciola è il nome della funzione nel controller
 Route::get('/', 'StaticPageController@home')->name('StaticPage.home');
 Route::get('/chisiamo', 'StaticPageController@chisiamo')->name('StaticPage.chisiamo');
 Route::get('/studenti', 'StudentController@studenti')->name('Student.studenti');
+Route::get('/studenti/show/{id}', 'StudentController@show')->name('Student.show');
+Route::get('/studenti/{slug}', 'StudentController@slug')->name('Student.slug');

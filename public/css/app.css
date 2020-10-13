@@ -10931,6 +10931,10 @@ main {
   margin-top: 70px;
 }
 
+main .container-chisiamo {
+  background-image: url("");
+}
+
 main .jumbo {
   width: 90%;
   margin: 0 auto;
@@ -10953,5 +10957,13 @@ main .card-group .carta img#student {
   width: 150px;
   border-radius: 50%;
   padding: 20px;
+}
+
+main .card-group .carta .card-body a {
+  text-decoration: none;
+}
+
+main .card-group .carta .card-body a:hover {
+  color: #0cd977;
 }
 

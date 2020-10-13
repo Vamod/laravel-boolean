@@ -10,7 +10,7 @@ class StaticPageController extends Controller
         return view('home');
     }
     public function chisiamo(){
-        //chisiamo è il nome del file non del name
+        //chisiamo è il nome del file non del name di route
         return view('chisiamo');
     }
 }

@@ -1,6 +1,9 @@
 main{
     margin-top: 70px;
     //home.blade.php
+    .container-chisiamo{
+        background-image: url('');
+    }
     .jumbo{
         width:90%;
         margin: 0 auto;
@@ -23,6 +26,14 @@ main{
                     width: 150px;
                     border-radius: 50%;
                     padding: 20px;
+                }
+                .card-body{
+                    a{
+                        text-decoration: none;
+                    }
+                    a:hover{
+                        color: $greenColor;
+                    }
                 }
             }
         }
