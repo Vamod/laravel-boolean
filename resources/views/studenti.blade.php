@@ -5,10 +5,10 @@
     <div class="card-group">
         @foreach ($data as $student)
             <div class="carta">
-                <img src="{{ $student['img'] }}" class="card-img-top" alt="{{ $student['nome'] }}">
+                <img id="student" src="{{ $student['img'] }}" class="card-img-top" alt="{{ $student['nome'] }}">
                 <div class="card-body">
                     <h5 class="card-title">{{ $student['nome'] }} {{ $student['anni'] }} anni</h5>
-                    <h6>{{ $student['azienda'] }}</h6>
+                    <h6>Lavora presso {{ $student['azienda'] }}</h6>
                     <p class="card-text">{{ $student['descrizione'] }}</p>
                 </div>
             </div>

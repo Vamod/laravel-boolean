@@ -1,11 +1,29 @@
-//studenti.blade.php
-.card-group{
-    flex-wrap: wrap;
-    .carta{
-        width: calc(100% / 3);
-        padding: 30px;
-        img{
-            border-radius: 50%;
-        }
+main{
+    margin-top: 70px;
+    //home.blade.php
+    .jumbo{
+        width:90%;
+        margin: 0 auto;
+
+
     }
+        //studenti.blade.php
+        .card-group{
+            flex-wrap: wrap;
+            padding: 30px;
+            .carta{
+                width: calc((100% / 3) - 20px);
+                padding: 30px;
+                margin: 10px 10px;
+                border-radius: 10px;
+                -webkit-box-shadow: 10px 10px 66px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 10px 10px 66px 0px rgba(0,0,0,0.75);
+                box-shadow: 10px 10px 66px 0px rgba(0,0,0,0.75);
+                img#student{
+                    width: 150px;
+                    border-radius: 50%;
+                    padding: 20px;
+                }
+            }
+        }
 }

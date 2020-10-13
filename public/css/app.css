@@ -10905,24 +10905,53 @@ a.text-dark:focus {
   box-sizing: border-box;
 }
 
-nav #logo {
+nav.navbar {
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav.navbar #logo {
   height: 32px;
 }
 
-nav #navbarNav li a .noactive {
+nav.navbar #navbarNav li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav.navbar #navbarNav li .active {
   color: #0cd977;
 }
 
-.card-group {
-  flex-wrap: wrap;
+main {
+  margin-top: 70px;
 }
 
-.card-group .carta {
-  width: calc(100% / 3);
+main .jumbo {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main .card-group {
+  flex-wrap: wrap;
   padding: 30px;
 }
 
-.card-group .carta img {
+main .card-group .carta {
+  width: calc((100% / 3) - 20px);
+  padding: 30px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 66px 0px rgba(0, 0, 0, 0.75);
+}
+
+main .card-group .carta img#student {
+  width: 150px;
   border-radius: 50%;
+  padding: 20px;
 }
 

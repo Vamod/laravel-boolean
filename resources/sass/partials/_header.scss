@@ -1,13 +1,21 @@
-nav{
+nav.navbar {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
     #logo{
         height: 32px;
     }
     #navbarNav{
         li{
             a{
-                .noactive{
-                    color: $greenColor;
-                }
+                text-decoration: none;
+                color: black;
+            }
+            .active{
+                color: $greenColor;
             }
         }
     }
