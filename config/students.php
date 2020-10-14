@@ -27,6 +27,7 @@ return [
     [
         'img' => 'https://www.boolean.careers/images/people/biagini.png',
         'nome' => 'Alessandro Biagini',
+        'slug' => 'ale',
         'anni' => '26',
         'genere' => 'm',
         'azienda' => 'DISC SPA',
@@ -37,6 +38,7 @@ return [
     [
         'img' => 'https://www.boolean.careers/images/people/davide.png',
         'nome' => 'Davide Patruno',
+        'slug' => 'dav',
         'anni' => '29',
         'genere' => 'm',
         'azienda' => 'Armadio Verde',
@@ -47,6 +49,7 @@ return [
     [
         'img' => 'https://www.boolean.careers/images/people/quarticelli.png',
         'nome' => 'Simone Quarticelli',
+        'slug' => 'simo',
         'anni' => '32',
         'genere' => 'm',
         'azienda' => 'VLC 2',
@@ -57,6 +60,7 @@ return [
     [
         'img' => 'https://www.boolean.careers/images/people/rispoli.jpeg',
         'nome' => 'Marco Rispoli',
+        'slug' => 'marco',
         'anni' => '28',
         'genere' => 'm',
         'azienda' => 'Atoms Studio',
